@@ -1,5 +1,5 @@
 
-# 🌸 Iris Flower Species Predictor (Naive Bayes + Flask)
+# Iris Flower Species Predictor (Naive Bayes + Flask)
 
 This is a simple Flask web application that uses a **Naive Bayes classifier** to predict the species of an Iris flower based on **only two inputs**: Petal Length and Petal Width.
 
@@ -79,17 +79,21 @@ Then visit: [http://localhost:5000](http://localhost:5000)
 
 ---
 
-## 🖥️ Sample UI
+## Sample UI
 
 **Input**:
-- Petal Length: 4.5
-- Petal Width: 1.3
+
+- Petal Length: 5
+- Petal Width: 6
+ <img width="720" height="536" alt="image" src="https://github.com/user-attachments/assets/9123e493-895f-48f5-9bfc-aa4cc8f876f0" />
 
 **Output**:
-```
-Predicted Species: Iris-versicolor
-```
 
+<img width="720" height="536" alt="image" src="https://github.com/user-attachments/assets/495e27cb-b1e9-4edd-ae94-508d08937814" />
+
+```
+Predicted Species: Iris-virginica
+```
 ---
 
 ## 🙋‍♂️ Author
