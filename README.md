@@ -22,16 +22,16 @@ The model was trained on the classic **Iris dataset** using only the most inform
 ```
 iris-naivebayes-app/
 │
-├── model.py               # Trains and saves the model and label encoder
-├── iris.data              # Raw dataset
-├── model.pkl              # Trained Naive Bayes model
-├── label_encoder.pkl      # LabelEncoder to decode predictions
-├── app.py                 # Flask app
+├── model.py              
+├── iris.data             
+├── model.pkl              
+├── label_encoder.pkl      
+├── app.py                 
 ├── templates/
-│   └── index.html         # Web interface
+│   └── index.html        
 ├── static/
-│   └── style.css          # Gradient-styled UI
-└── README.md              # This file
+│   └── style.css          
+└── README.md              
 ```
 
 ---
@@ -54,23 +54,17 @@ iris-naivebayes-app/
 
 ## 🔧 Installation
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/your-username/iris-naivebayes-app.git
-cd iris-naivebayes-app
-```
-
-### 2. Install Dependencies
+### 1. Install Dependencies
 ```bash
 pip install flask scikit-learn pandas numpy
 ```
 
-### 3. Train the Model (if not already)
+### 2. Train the Model (if not already)
 ```bash
 python model.py
 ```
 
-### 4. Run the Flask App
+### 3. Run the Flask App
 ```bash
 python app.py
 ```
