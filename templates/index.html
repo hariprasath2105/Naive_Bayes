@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Iris Flower Prediction 🌸</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>Iris Flower Classifier</h1>
+    <form method="POST">
+      <label for="petal_length">Petal Length (cm):</label>
+      <input type="number" name="petal_length" step="0.01" required>
+
+      <label for="petal_width">Petal Width (cm):</label>
+      <input type="number" name="petal_width" step="0.01" required>
+
+      <button type="submit">Predict</button>
+    </form>
+
+    {% if prediction %}
+      <div class="result">
+        Predicted Species: <strong>{{ prediction }}</strong>
+      </div>
+    {% endif %}
+  </div>
+</body>
+</html>
