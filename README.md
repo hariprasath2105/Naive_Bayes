@@ -1,23 +1,27 @@
-
 # Iris Flower Species Predictor (Naive Bayes + Flask)
 
 This is a simple Flask web application that uses a **Naive Bayes classifier** to predict the species of an Iris flower based on **only two inputs**: Petal Length and Petal Width.
-
----
-
-## 🧠 Overview
-
-The app is built using:
-- **Python**
-- **Flask** (for the backend)
-- **HTML/CSS** (for a simple UI)
-- **scikit-learn** (for machine learning)
-
 The model was trained on the classic **Iris dataset** using only the most informative features: `PetalLength` and `PetalWidth`.
 
 ---
 
-## 📁 Project Structure
+## Tech Stack
+
+The app is built using:
+- **Python**
+- **Flask**
+- **HTML/CSS** 
+- **scikit-learn**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+
+---
+
+## Project Structure
 
 ```
 iris-naivebayes-app/
@@ -36,7 +40,7 @@ iris-naivebayes-app/
 
 ---
 
-## 🚀 How It Works
+## How It Works
 
 1. User inputs:
    - Petal Length (cm)
@@ -52,7 +56,7 @@ iris-naivebayes-app/
 
 ---
 
-## 🔧 Installation
+## Installation
 
 ### 1. Install Dependencies
 ```bash
@@ -89,14 +93,3 @@ Then visit: [http://localhost:5000](http://localhost:5000)
 Predicted Species: Iris-virginica
 ```
 ---
-
-## 🙋‍♂️ Author
-
-**Hari Prasath S**  
-[GitHub Profile](https://github.com/hariprasath2105)
-
----
-
-## 📘 License
-
-This project is open source and free to use.
